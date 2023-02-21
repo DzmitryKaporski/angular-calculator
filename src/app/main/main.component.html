@@ -1,0 +1,16 @@
+<main class="main">
+  <section class="calculator">
+    <span class="calculator-window">
+      <div class="calculator-current-iteration">{{currentIteration}}</div> {{selectedFirstNumber}}
+      <span *ngIf="selectedSymbol">{{selectedSymbol}} </span>
+      <span *ngIf="selectedSecondNumber">{{selectedSecondNumber}}</span>
+      <span *ngIf="result">{{result}}</span>
+    </span>
+    <div class="calculator-buttons" *ngFor="let number of numbersAll" (click)="onSelectNumber(number)">
+      {{number.value}}
+    </div>
+    <div class="calculator-symbols" *ngFor="let symbol of symbolsAll" (click)="onSelectSymbol(symbol)">
+      {{symbol.value}}
+    </div>
+  </section>
+</main>

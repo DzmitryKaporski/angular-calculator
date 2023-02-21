@@ -1,0 +1,119 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .calculator {
+    padding: 10px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 0 0 35px rgba(175, 18, 18, 0.397);
+    background: linear-gradient(rgba(28, 142, 235, 0) 40%, rgba(105, 11, 25, 0.436));
+
+    .calculator-current-iteration {
+      position: absolute;
+      padding: 5px 10px 0 0;
+      margin: -50px 0 0 0;
+      width: 450px;
+      height: 25px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      font-size: 20px;
+      color: rgba(224, 36, 36, 0.464);
+      background: linear-gradient(rgba(206, 22, 50, 0.342), 30%, rgba(235, 28, 80, 0));
+    }
+
+    .calculator-window {
+      margin-bottom: 3px;
+      padding: 10px;
+      width: 100%;
+      height: 140px;
+      text-align: end;
+      border-radius: 15px;
+      font-size: 65px;
+      color: red;
+      box-shadow: inset 0 0 2px 0 red;
+    }
+
+    .calculator-buttons,
+    .calculator-symbols {
+      height: 100px;
+      width: 100px;
+      margin: 4px;
+      padding: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      font-size: 35px;
+      transition: 0.2s;
+      box-shadow: inset 0 0 2px 0 red;
+    }
+
+    .calculator-buttons:hover {
+      color: red;
+      box-shadow: inset 0 0 40px 0 rgba(175, 18, 18, 0.397);
+      cursor: pointer;
+    }
+
+    .calculator-symbols:hover {
+      color: blue;
+      box-shadow: inset 0 0 20px 0 red;
+      cursor: pointer;
+    }
+
+    @media(max-width: 800px) {
+
+      .calculator-buttons,
+      .calculator-symbols {
+        height: 75px;
+        width: 75px;
+      }
+
+      .calculator-window {
+        width: 360px;
+        font-size: 50px;
+      }
+
+      .calculator-current-iteration {
+        width: 360px;
+        font-size: 15px;
+      }
+    }
+
+    @media(max-width: 450px) {
+
+      .calculator-buttons,
+      .calculator-symbols {
+        height: 55px;
+        width: 55px;
+      }
+
+      .calculator-window {
+        font-size: 40px;
+        height: 90px;
+      }
+
+      .calculator-current-iteration {
+        padding-top: 9px;
+        width: 275px;
+        font-size: 12.5px;
+      }
+    }
+  }
+
+  @media(max-width: 800px) {
+    .calculator {
+      width: 380px;
+    }
+  }
+
+  @media(max-width: 450px) {
+    .calculator {
+      width: 300px;
+    }
+  }
+}

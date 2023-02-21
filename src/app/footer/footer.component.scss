@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 40px;
+  padding: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 40px;
+  color: rgb(99, 8, 8);
+  background: linear-gradient(rgba(206, 22, 50, 0.342), 40%, rgba(28, 142, 235, 0));
+}
+
+@media(max-width: 800px) {
+
+  .footer {
+    display: none;
+  }
+}
