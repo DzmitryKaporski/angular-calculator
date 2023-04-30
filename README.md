@@ -2,7 +2,7 @@
 
 [![](https://i.ibb.co/3mP49P5/Screenshot-140.png)](https://angular-calculator-dk.surge.sh/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
 ## Development server
 
