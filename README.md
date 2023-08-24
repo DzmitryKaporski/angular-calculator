@@ -1,8 +1,8 @@
-# Deploy: [angular-calculator](https://angular-calculator-dk.surge.sh/)
+# Deploy: [angular-calculator](https://angular-calculator_dk.surge.sh)
 
-[![](https://i.ibb.co/3mP49P5/Screenshot-140.png)](https://angular-calculator-dk.surge.sh/)
+[![](https://i.ibb.co/3mP49P5/Screenshot-140.png)](https://angular-calculator_dk.surge.sh)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
 
 ## Development server
 
