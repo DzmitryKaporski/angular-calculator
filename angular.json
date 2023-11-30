@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-calculator:build:production"
+              "buildTarget": "angular-calculator:build:production"
             },
             "development": {
-              "browserTarget": "angular-calculator:build:development"
+              "buildTarget": "angular-calculator:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,7 +98,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-calculator:build"
+            "buildTarget": "angular-calculator:build"
           }
         },
         "test": {
